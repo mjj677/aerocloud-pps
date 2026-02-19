@@ -23,7 +23,7 @@ Simulates a simplified Passenger Processing System (PPS) — the kind of system 
 
 | Layer | Choice | Notes |
 |---|---|---|
-| Framework | .NET 8 / ASP.NET Core | Web API with controller-based routing |
+| Framework | .NET 10 / ASP.NET Core | Web API with controller-based routing |
 | ORM | Entity Framework Core 8 | SQLite locally; production-ready for SQL Server swap |
 | Testing | xUnit + FluentAssertions + Moq | EF In-Memory provider for isolated unit tests |
 | Docs | Swagger / Swashbuckle | Served at root in development |
@@ -34,7 +34,7 @@ Simulates a simplified Passenger Processing System (PPS) — the kind of system 
 ## Getting started
 
 ### Prerequisites
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download)
 
 ### Run the API
 ```bash
@@ -43,7 +43,7 @@ cd aerocloud-pps/AeroCloud.PPS
 dotnet run
 ```
 
-Swagger UI loads at `https://localhost:5001`. Two seed flights and one passenger are pre-loaded.
+Swagger UI loads at `https://localhost:5000`. Two seed flights and one passenger are pre-loaded.
 
 ### Run the tests
 ```bash
