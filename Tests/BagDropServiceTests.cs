@@ -5,6 +5,7 @@ using AeroCloud.PPS.Services;
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging.Abstractions;
+using Xunit;
 
 namespace AeroCloud.PPS.Tests;
 
